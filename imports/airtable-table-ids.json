@@ -1,0 +1,90 @@
+{
+  "Projects": {
+    "id": "tblyG0qhWevgR2AZc",
+    "fields": {
+      "Name": "fldbJnXKreQVjwReK",
+      "Notes": "flderO9VIkAPUtPPs",
+      "Assignee": "fldTMdvXyHOw1uCie",
+      "Status": "fldpd7kzFun106Lgr",
+      "Attachments": "fld4iu6yKZUERFk7G",
+      "Attachment Summary": "fldUuNsaARa3TDqVf",
+      "Color": "fldBsT0SGj1gscfBH",
+      "Client": "fld4CV3WFSeaGWUIc",
+      "Start Date": "fldzYXOmk2TkwezvN",
+      "Target End": "fldxqQWIW4BYij3Ib",
+      "Order": "fldJjnMwelVa9q2kF"
+    }
+  },
+  "Milestones": {
+    "id": "tblWqtybMm4lVZZ6R",
+    "fields": {
+      "Name": "fldiL70eaZqHq5VSk",
+      "Kind": "fldXHX9wu0A9MYLNU",
+      "Status": "fldJwG0kISaNDLOY0",
+      "Notes": "fld7X6e142MvVeOee",
+      "Date": "fldw0iNg9QbSVib95"
+    }
+  },
+  "Tasks": {
+    "id": "tblfbWvZ8tP1KDaqI",
+    "fields": {
+      "Name": "fldhcKu4q9wc08flz",
+      "Type": "fldMillLomed0TRtT",
+      "Status": "fldAkbe0FFIG4vUNY",
+      "Priority": "fldok4NLoKCB1i16G",
+      "Deadline Mode": "fldT1RAMusl5OjQXu",
+      "Notes": "fldvKOhwqBF4LRtPS",
+      "Estimate Hours": "fld1QCJCS3Cu6KMtI",
+      "Due Date": "fldUWUd4lk294ANzo",
+      "Start Not Before": "fldWD7rQpz05whfLY",
+      "Completed At": "fldGPwAVIp6nJ3Sxe",
+      "Order": "fldjXRsG9cEAf9JMN",
+      "Tags": "fldwazSF1kj8d64dN",
+      "Scheduled Start": "fldNjSG9ZaIXJdXL0",
+      "Scheduled End": "fldS2zcvDhTVBGLik"
+    }
+  },
+  "Time Logs": {
+    "id": "tblriTrq73VW7uLC0",
+    "fields": {
+      "Log ID": "fldS3nFGPzuMsUvbQ",
+      "Note": "fldkPZrR5JbjiHkZI",
+      "Date": "fldR16Zk068C7sF05",
+      "Hours": "fldomzgJlAx7304kn"
+    }
+  },
+  "Capacity Baseline": {
+    "id": "tbloZpvCc1fOFS7R6",
+    "fields": {
+      "Weekday": "fldOdWcRZ8kdTsS72",
+      "Index": "fldpHySWxKbJrpmxU",
+      "Hours": "fldZmuhXQoWdIcrhh"
+    }
+  },
+  "Capacity Overrides": {
+    "id": "tblr464CtkDUIGvL0",
+    "fields": {
+      "Key": "fldB8FCi6t6SLHKxm",
+      "Reason": "fldwQJHCw6sh1bmCe",
+      "Note": "fldDXRQ7z2a9TtveO",
+      "Date": "fld4WSGuRW4bXxSqm",
+      "Hours": "fldDSHcXml02LVOOE"
+    }
+  },
+  "Activity Log": {
+    "id": "tblWc7dN7dUooJpNr",
+    "fields": {
+      "Event ID": "fldWztmrQ4wseKTpI",
+      "Type": "fldJbrD00b0RitoOI",
+      "Label": "fldH95Apso6UNK6UI",
+      "Payload": "fldEzu8Qag7awQ6zu"
+    }
+  },
+  "Settings": {
+    "id": "tblaEwlVIZKUE4fyM",
+    "fields": {
+      "Key": "fldlR0DuoOt1agWnv",
+      "Value": "fldBhET4HbSCKI79h"
+    }
+  }
+}

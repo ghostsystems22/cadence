@@ -1,0 +1,13 @@
+services:
+  cadence:
+    build: .
+    container_name: cadence-app
+    restart: unless-stopped
+    environment:
+      PORT: "8080"
+      AIRTABLE_BASE_ID: appxQ4Db14RoVzYa0
+      AIRTABLE_API_KEY: ${AIRTABLE_API_KEY}
+      APP_TOKEN: ${APP_TOKEN}
+    ports:
+      # Reachable only by the VPS host and the Caddy container via host.docker.internal.
+      - "172.17.0.1:8181:8080"

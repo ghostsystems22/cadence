@@ -1,0 +1,8 @@
+const base=process.env.AIRTABLE_BASE_ID, key=process.env.AIRTABLE_API_KEY;
+const h={Authorization:`Bearer ${key}`,'Content-Type':'application/json'};
+const req=async(path,init={})=>{const r=await fetch(`https://api.airtable.com${path}`,{...init,headers:h});if(!r.ok)throw Error(`${r.status} ${await r.text()}`);return r.json()};
+let schema=await req(`/v0/meta/bases/${base}/tables`); let phases=schema.tables.find(t=>t.name==='Phases');
+if(!phases){phases=await req(`/v0/meta/bases/${base}/tables`,{method:'POST',body:JSON.stringify({name:'Phases',fields:[{name:'Name',type:'singleLineText'},{name:'Project',type:'multipleRecordLinks',options:{linkedTableId:schema.tables.find(t=>t.name==='Projects').id}},{name:'Start Date',type:'date',options:{dateFormat:{name:'iso',format:'YYYY-MM-DD'}}},{name:'End Date',type:'date',options:{dateFormat:{name:'iso',format:'YYYY-MM-DD'}}},{name:'Order',type:'number',options:{precision:0}},{name:'Notes',type:'multilineText'}]})})}
+schema=await req(`/v0/meta/bases/${base}/tables`);const tasks=schema.tables.find(t=>t.name==='Tasks');
+if(!tasks.fields.some(f=>f.name==='Phase'))await req(`/v0/meta/bases/${base}/tables/${tasks.id}/fields`,{method:'POST',body:JSON.stringify({name:'Phase',type:'multipleRecordLinks',options:{linkedTableId:phases.id}})});
+console.log(JSON.stringify({phasesTable:phases.id,createdFields:['Project','Start Date','End Date','Order','Notes'],tasksPhaseLinked:true}));

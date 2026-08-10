@@ -1,0 +1,16 @@
+{
+  "source_data_source": "58745ca2-a462-829b-b8b8-87292a735061",
+  "tasks_total": 19,
+  "project_relation_ids": [
+    "3a745ca2-a462-8047-a23c-e45f3057998b",
+    "3aa45ca2-a462-8024-af6e-cf576ea314f7",
+    "3aa45ca2-a462-80be-89f2-e0bf02ab54c4",
+    "3aa45ca2-a462-80c3-a0a3-fccddac8c1ab"
+  ],
+  "status_counts": {
+    "<empty>": 2,
+    "TO-DO": 17
+  },
+  "with_estimate": 0,
+  "completed": 0
+}

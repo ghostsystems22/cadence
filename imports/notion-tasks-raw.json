@@ -1,0 +1,3152 @@
+[
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-8016-b73d-f3fafd14f7f4",
+    "created_time": "2026-07-27T06:40:00.000Z",
+    "last_edited_time": "2026-07-27T06:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80c3-a0a3-fccddac8c1ab"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": null
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": null
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": null
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": []
+      }
+    },
+    "url": "https://app.notion.com/p/3aa45ca2a4628016b73df3fafd14f7f4",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-80fa-99de-d6fd26277584",
+    "created_time": "2026-07-27T06:40:00.000Z",
+    "last_edited_time": "2026-07-27T07:11:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "jz{i",
+            "name": "Client Delivery",
+            "color": "default"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80c3-a0a3-fccddac8c1ab"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80e5-9cbd-f60dc42e03e0"
+          },
+          {
+            "id": "3aa45ca2-a462-802e-b8b6-e86ad7a2470e"
+          },
+          {
+            "id": "3aa45ca2-a462-805c-a7cb-c3827dba810e"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1f4e24c9-01ca-44b7-8d53-fd96b6fb7ca6",
+          "name": "Medium",
+          "color": "green"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-28",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Finish Email Sequence Automation ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Finish Email Sequence Automation ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Finish-Email-Sequence-Automation-3aa45ca2a46280fa99ded6fd26277584",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-8082-9deb-e2d252f3605d",
+    "created_time": "2026-07-27T06:40:00.000Z",
+    "last_edited_time": "2026-07-27T07:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "jz{i",
+            "name": "Client Delivery",
+            "color": "default"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80c3-a0a3-fccddac8c1ab"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-8036-b8c6-fa6fe26f4d2a"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": null
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": null
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "0b904bab-2031-4e76-b077-b8b62092c63b",
+          "name": "High",
+          "color": "pink"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-29",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Finish Calendly Import Automation ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Finish Calendly Import Automation ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Finish-Calendly-Import-Automation-3aa45ca2a46280829debe2d252f3605d",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-806b-a734-c5c66c0ac93f",
+    "created_time": "2026-07-27T06:38:00.000Z",
+    "last_edited_time": "2026-07-27T06:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-8024-af6e-cf576ea314f7"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-8071-bb4d-ea3ecbf12fba"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": 2
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1f4e24c9-01ca-44b7-8d53-fd96b6fb7ca6",
+          "name": "Medium",
+          "color": "green"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": null
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Automate HLD Market Lines with Script ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Automate HLD Market Lines with Script ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Automate-HLD-Market-Lines-with-Script-3aa45ca2a462806ba734c5c66c0ac93f",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-801c-93e3-ee0ba583401c",
+    "created_time": "2026-07-27T05:59:00.000Z",
+    "last_edited_time": "2026-07-27T06:01:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "jz{i",
+            "name": "Client Delivery",
+            "color": "default"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3a745ca2-a462-8047-a23c-e45f3057998b"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80d6-b26a-e483891eb66d"
+          },
+          {
+            "id": "3aa45ca2-a462-802c-9a21-c2f048bfaccf"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": 2
+            },
+            {
+              "type": "number",
+              "number": 0.5
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1b842e1c-27fd-4f82-b48c-a73fbb88c76e",
+          "name": "Critical",
+          "color": "red"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-27",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Finish Building The Flunter Connection and Automations  ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Finish Building The Flunter Connection and Automations  ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Finish-Building-The-Flunter-Connection-and-Automations-3aa45ca2a462801c93e3ee0ba583401c",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-804f-8650-dc0071b8d2e2",
+    "created_time": "2026-07-27T05:59:00.000Z",
+    "last_edited_time": "2026-07-27T06:01:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "jz{i",
+            "name": "Client Delivery",
+            "color": "default"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3a745ca2-a462-8047-a23c-e45f3057998b"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-800d-88a9-fb09b9259a5a"
+          },
+          {
+            "id": "3aa45ca2-a462-8008-a28e-f027c5bdabbb"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": 2
+            },
+            {
+              "type": "number",
+              "number": 2
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1b842e1c-27fd-4f82-b48c-a73fbb88c76e",
+          "name": "Critical",
+          "color": "red"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-27",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Finish Airtable Interfaces ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Finish Airtable Interfaces ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Finish-Airtable-Interfaces-3aa45ca2a462804f8650dc0071b8d2e2",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-809b-a594-cb327167fa2d",
+    "created_time": "2026-07-27T05:59:00.000Z",
+    "last_edited_time": "2026-07-27T06:01:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "jz{i",
+            "name": "Client Delivery",
+            "color": "default"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3a745ca2-a462-8047-a23c-e45f3057998b"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "0b904bab-2031-4e76-b077-b8b62092c63b",
+          "name": "High",
+          "color": "pink"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-28",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Notion Client Page Automation ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Notion Client Page Automation ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Notion-Client-Page-Automation-3aa45ca2a462809ba594cb327167fa2d",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-803e-a6ff-c477113a9860",
+    "created_time": "2026-07-27T05:58:00.000Z",
+    "last_edited_time": "2026-07-27T06:01:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "jz{i",
+            "name": "Client Delivery",
+            "color": "default"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3a745ca2-a462-8047-a23c-e45f3057998b"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "0b904bab-2031-4e76-b077-b8b62092c63b",
+          "name": "High",
+          "color": "pink"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-29",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "# Slack Notifications Automation",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "# Slack Notifications Automation",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Slack-Notifications-Automation-3aa45ca2a462803ea6ffc477113a9860",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-8008-aeda-d2a3597f5afc",
+    "created_time": "2026-07-27T05:27:00.000Z",
+    "last_edited_time": "2026-07-27T05:49:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "]VmR",
+            "name": "Content",
+            "color": "pink"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-805e-8b63-f4c40227a985"
+          },
+          {
+            "id": "3aa45ca2-a462-8031-ade4-db582861dd08"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1f4e24c9-01ca-44b7-8d53-fd96b6fb7ca6",
+          "name": "Medium",
+          "color": "green"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-30",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Plan B-Roll Bank ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Plan B-Roll Bank ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Plan-B-Roll-Bank-3aa45ca2a4628008aedad2a3597f5afc",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-8069-8c90-dcb40417b6a9",
+    "created_time": "2026-07-27T05:27:00.000Z",
+    "last_edited_time": "2026-07-27T05:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "]VmR",
+            "name": "Content",
+            "color": "pink"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80c7-bf5f-e1c4880a4185"
+          },
+          {
+            "id": "3aa45ca2-a462-80ae-88b0-dd7da4f3e294"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "0b904bab-2031-4e76-b077-b8b62092c63b",
+          "name": "High",
+          "color": "pink"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-08-02",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Build Content Planning For The Month ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Build Content Planning For The Month ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Build-Content-Planning-For-The-Month-3aa45ca2a46280698c90dcb40417b6a9",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-80bf-8f03-ff0f3439103c",
+    "created_time": "2026-07-27T05:26:00.000Z",
+    "last_edited_time": "2026-07-27T05:49:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "KMHg",
+            "name": "Marketing",
+            "color": "orange"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "8873fd99-7915-4e0a-abbe-c6e3b2b97bc8",
+          "name": "Low",
+          "color": "gray"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-09-06",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Built Portfolio Website ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Built Portfolio Website ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Built-Portfolio-Website-3aa45ca2a46280bf8f03ff0f3439103c",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-80f8-9876-c2e3346b28a6",
+    "created_time": "2026-07-27T05:26:00.000Z",
+    "last_edited_time": "2026-07-27T05:35:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "KMHg",
+            "name": "Marketing",
+            "color": "orange"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-8011-8a8f-c41a0b75e75a"
+          },
+          {
+            "id": "3aa45ca2-a462-8018-912e-e7932cc69fb7"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "8873fd99-7915-4e0a-abbe-c6e3b2b97bc8",
+          "name": "Low",
+          "color": "gray"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-08-02",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Build Offer ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Build Offer ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Build-Offer-3aa45ca2a46280f89876c2e3346b28a6",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-8024-8717-f75cf239797f",
+    "created_time": "2026-07-27T05:26:00.000Z",
+    "last_edited_time": "2026-07-27T05:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "]VmR",
+            "name": "Content",
+            "color": "pink"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-8013-ba0b-ea7b61771740"
+          },
+          {
+            "id": "3aa45ca2-a462-80a4-a4ae-d807edf66410"
+          },
+          {
+            "id": "3aa45ca2-a462-80af-a94f-c5a249817567"
+          },
+          {
+            "id": "3aa45ca2-a462-8090-bdda-fa90c243669e"
+          },
+          {
+            "id": "3aa45ca2-a462-80f1-b0c5-e1aeee9f0d3b"
+          },
+          {
+            "id": "3aa45ca2-a462-8030-af28-e95d5800563b"
+          },
+          {
+            "id": "3aa45ca2-a462-8093-9abe-cae29aa337ec"
+          },
+          {
+            "id": "3aa45ca2-a462-803a-bdbd-c6f6db911678"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "0b904bab-2031-4e76-b077-b8b62092c63b",
+          "name": "High",
+          "color": "pink"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-08-02",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Post 7 Carrousels ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Post 7 Carrousels ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Post-7-Carrousels-3aa45ca2a46280248717f75cf239797f",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-801a-9199-ebcb4fe4a80b",
+    "created_time": "2026-07-27T05:26:00.000Z",
+    "last_edited_time": "2026-07-27T05:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "]VmR",
+            "name": "Content",
+            "color": "pink"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-8057-bd1b-e2a53aaef045"
+          },
+          {
+            "id": "3aa45ca2-a462-8045-b486-d21696299ce6"
+          },
+          {
+            "id": "3aa45ca2-a462-8095-97c9-c889beda2a63"
+          },
+          {
+            "id": "3aa45ca2-a462-808e-8237-ccb536ca1a66"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "0b904bab-2031-4e76-b077-b8b62092c63b",
+          "name": "High",
+          "color": "pink"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-29",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Produce Youtube video #1 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Produce Youtube video #1 ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Produce-Youtube-video-1-3aa45ca2a462801a9199ebcb4fe4a80b",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3aa45ca2-a462-807a-9f2b-f7f954d3eed3",
+    "created_time": "2026-07-27T05:26:00.000Z",
+    "last_edited_time": "2026-07-27T05:49:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "checkmark",
+        "color": "gray"
+      }
+    },
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": [
+          {
+            "id": "]VmR",
+            "name": "Content",
+            "color": "pink"
+          }
+        ]
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": null
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": null
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-8031-8de4-f348116046b3"
+          },
+          {
+            "id": "3aa45ca2-a462-80a6-8b0e-c967b3325505"
+          },
+          {
+            "id": "3aa45ca2-a462-8015-bd8c-e089121a480f"
+          },
+          {
+            "id": "3aa45ca2-a462-8042-93d5-d2524389f4b6"
+          }
+        ],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            },
+            {
+              "type": "number",
+              "number": null
+            }
+          ],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "0b904bab-2031-4e76-b077-b8b62092c63b",
+          "name": "High",
+          "color": "pink"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": {
+          "start": "2026-07-31",
+          "end": null,
+          "time_zone": null
+        }
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": null
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Produce Youtube video #2 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Produce Youtube video #2 ",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Produce-Youtube-video-2-3aa45ca2a462807a9f2bf7f954d3eed3",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3a745ca2-a462-8128-84e9-da0fea85d3f1",
+    "created_time": "2026-07-24T05:01:00.000Z",
+    "last_edited_time": "2026-07-27T05:52:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "39045ca2-a462-81df-ac07-0027ef027727"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": {
+          "id": "f68287b0-d09e-4718-81fa-2f23819a0bb5",
+          "name": "Gabriel",
+          "color": "green"
+        }
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": {
+          "id": "kkbf",
+          "name": "THE FORGE",
+          "color": "default"
+        }
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1f4e24c9-01ca-44b7-8d53-fd96b6fb7ca6",
+          "name": "Medium",
+          "color": "green"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": null
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": {
+          "id": "2ac7addd-7a1e-4577-bae5-8806e38e8002",
+          "name": "Human",
+          "color": "blue"
+        }
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Register on Freelancing Platforms",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Register on Freelancing Platforms",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Register-on-Freelancing-Platforms-3a745ca2a462812884e9da0fea85d3f1",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3a745ca2-a462-8198-9c8f-dff5bfeabcf2",
+    "created_time": "2026-07-24T05:01:00.000Z",
+    "last_edited_time": "2026-07-27T05:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "39045ca2-a462-81df-ac07-0027ef027727"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": {
+          "id": "f68287b0-d09e-4718-81fa-2f23819a0bb5",
+          "name": "Gabriel",
+          "color": "green"
+        }
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": {
+          "id": "kkbf",
+          "name": "THE FORGE",
+          "color": "default"
+        }
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1f4e24c9-01ca-44b7-8d53-fd96b6fb7ca6",
+          "name": "Medium",
+          "color": "green"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": null
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": {
+          "id": "2ac7addd-7a1e-4577-bae5-8806e38e8002",
+          "name": "Human",
+          "color": "blue"
+        }
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Create Content Review / Scraper",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Create Content Review / Scraper",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Create-Content-Review-Scraper-3a745ca2a46281989c8fdff5bfeabcf2",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3a745ca2-a462-81bc-96b3-d2ef92559a40",
+    "created_time": "2026-07-24T05:01:00.000Z",
+    "last_edited_time": "2026-07-27T05:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "39045ca2-a462-81df-ac07-0027ef027727"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": {
+          "id": "f68287b0-d09e-4718-81fa-2f23819a0bb5",
+          "name": "Gabriel",
+          "color": "green"
+        }
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": {
+          "id": "kkbf",
+          "name": "THE FORGE",
+          "color": "default"
+        }
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1f4e24c9-01ca-44b7-8d53-fd96b6fb7ca6",
+          "name": "Medium",
+          "color": "green"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": null
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": {
+          "id": "2ac7addd-7a1e-4577-bae5-8806e38e8002",
+          "name": "Human",
+          "color": "blue"
+        }
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Create Many Chat For Aquisition on Instagram",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Create Many Chat For Aquisition on Instagram",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Create-Many-Chat-For-Aquisition-on-Instagram-3a745ca2a46281bc96b3d2ef92559a40",
+    "public_url": null,
+    "archived": false
+  },
+  {
+    "object": "page",
+    "id": "3a745ca2-a462-8113-9e80-c8c4a5aa4be4",
+    "created_time": "2026-07-24T05:00:00.000Z",
+    "last_edited_time": "2026-07-27T05:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "39045ca2-a462-81df-ac07-0027ef027727"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "3cfd9f46-9ae1-4bcc-8327-94b7a446efa7"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "data_source_id",
+      "data_source_id": "58745ca2-a462-829b-b8b8-87292a735061",
+      "database_id": "6fe45ca2-a462-826c-a73a-0136244ae775"
+    },
+    "in_trash": false,
+    "is_archived": false,
+    "is_locked": false,
+    "properties": {
+      "Category": {
+        "id": "%3CUaV",
+        "type": "multi_select",
+        "multi_select": []
+      },
+      "Executor": {
+        "id": "EMLw",
+        "type": "select",
+        "select": {
+          "id": "f68287b0-d09e-4718-81fa-2f23819a0bb5",
+          "name": "Gabriel",
+          "color": "green"
+        }
+      },
+      "Project ": {
+        "id": "GI%40g",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+          }
+        ],
+        "has_more": false
+      },
+      "Company ": {
+        "id": "JMD%7D",
+        "type": "select",
+        "select": {
+          "id": "kkbf",
+          "name": "THE FORGE",
+          "color": "default"
+        }
+      },
+      "Sub Tasks ": {
+        "id": "Kc%7Dp",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Completed": {
+        "id": "OnAM",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Total Time Planned ": {
+        "id": "%5BqLl",
+        "type": "rollup",
+        "rollup": {
+          "type": "array",
+          "array": [],
+          "function": "show_original"
+        }
+      },
+      "Status": {
+        "id": "by%5E%5C",
+        "type": "select",
+        "select": {
+          "id": "]zuV",
+          "name": "TO-DO",
+          "color": "pink"
+        }
+      },
+      "Priority": {
+        "id": "cpIR",
+        "type": "select",
+        "select": {
+          "id": "1f4e24c9-01ca-44b7-8d53-fd96b6fb7ca6",
+          "name": "Medium",
+          "color": "green"
+        }
+      },
+      "Due Date": {
+        "id": "femH",
+        "type": "date",
+        "date": null
+      },
+      "Phase": {
+        "id": "f%7D%40%7C",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Time Required ": {
+        "id": "hUnI",
+        "type": "number",
+        "number": null
+      },
+      "Work Form ": {
+        "id": "hd%3Ap",
+        "type": "select",
+        "select": null
+      },
+      "Executor Type": {
+        "id": "yyX%40",
+        "type": "select",
+        "select": {
+          "id": "2ac7addd-7a1e-4577-bae5-8806e38e8002",
+          "name": "Human",
+          "color": "blue"
+        }
+      },
+      "To-do": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Analyze Competiton business model to reproduce",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Analyze Competiton business model to reproduce",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://app.notion.com/p/Analyze-Competiton-business-model-to-reproduce-3a745ca2a46281139e80c8c4a5aa4be4",
+    "public_url": null,
+    "archived": false
+  }
+]

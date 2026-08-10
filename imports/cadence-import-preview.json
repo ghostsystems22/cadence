@@ -1,0 +1,278 @@
+{
+  "projects": [
+    {
+      "name": "Steve Inacio - Sales Ecosystem",
+      "notionId": "3a745ca2-a462-8047-a23c-e45f3057998b"
+    },
+    {
+      "name": "⚙️ BrightSpeed Automation — AutoCAD Permit Pipeline",
+      "notionId": "3aa45ca2-a462-8024-af6e-cf576ea314f7"
+    },
+    {
+      "name": "Marketing ",
+      "notionId": "3aa45ca2-a462-80be-89f2-e0bf02ab54c4"
+    },
+    {
+      "name": "Optimise Et Vous",
+      "notionId": "3aa45ca2-a462-80c3-a0a3-fccddac8c1ab"
+    }
+  ],
+  "tasks": [
+    {
+      "Name": "Finish Email Sequence Automation ",
+      "ProjectName": "Optimise Et Vous",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-28",
+      "Tags": [
+        "Client Delivery"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Finish-Email-Sequence-Automation-3aa45ca2a46280fa99ded6fd26277584",
+      "Notion ID": "3aa45ca2-a462-80fa-99de-d6fd26277584"
+    },
+    {
+      "Name": "Finish Calendly Import Automation ",
+      "ProjectName": "Optimise Et Vous",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-29",
+      "Tags": [
+        "Client Delivery"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Finish-Calendly-Import-Automation-3aa45ca2a46280829debe2d252f3605d",
+      "Notion ID": "3aa45ca2-a462-8082-9deb-e2d252f3605d"
+    },
+    {
+      "Name": "Automate HLD Market Lines with Script ",
+      "ProjectName": "⚙️ BrightSpeed Automation — AutoCAD Permit Pipeline",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": null,
+      "Tags": [],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Automate-HLD-Market-Lines-with-Script-3aa45ca2a462806ba734c5c66c0ac93f",
+      "Notion ID": "3aa45ca2-a462-806b-a734-c5c66c0ac93f"
+    },
+    {
+      "Name": "Finish Building The Flunter Connection and Automations  ",
+      "ProjectName": "Steve Inacio - Sales Ecosystem",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-27",
+      "Tags": [
+        "Client Delivery"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Finish-Building-The-Flunter-Connection-and-Automations-3aa45ca2a462801c93e3ee0ba583401c",
+      "Notion ID": "3aa45ca2-a462-801c-93e3-ee0ba583401c"
+    },
+    {
+      "Name": "Finish Airtable Interfaces ",
+      "ProjectName": "Steve Inacio - Sales Ecosystem",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-27",
+      "Tags": [
+        "Client Delivery"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Finish-Airtable-Interfaces-3aa45ca2a462804f8650dc0071b8d2e2",
+      "Notion ID": "3aa45ca2-a462-804f-8650-dc0071b8d2e2"
+    },
+    {
+      "Name": "Notion Client Page Automation ",
+      "ProjectName": "Steve Inacio - Sales Ecosystem",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-28",
+      "Tags": [
+        "Client Delivery"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Notion-Client-Page-Automation-3aa45ca2a462809ba594cb327167fa2d",
+      "Notion ID": "3aa45ca2-a462-809b-a594-cb327167fa2d"
+    },
+    {
+      "Name": "# Slack Notifications Automation",
+      "ProjectName": "Steve Inacio - Sales Ecosystem",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-29",
+      "Tags": [
+        "Client Delivery"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Slack-Notifications-Automation-3aa45ca2a462803ea6ffc477113a9860",
+      "Notion ID": "3aa45ca2-a462-803e-a6ff-c477113a9860"
+    },
+    {
+      "Name": "Plan B-Roll Bank ",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-30",
+      "Tags": [
+        "Content"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Plan-B-Roll-Bank-3aa45ca2a4628008aedad2a3597f5afc",
+      "Notion ID": "3aa45ca2-a462-8008-aeda-d2a3597f5afc"
+    },
+    {
+      "Name": "Build Content Planning For The Month ",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-08-02",
+      "Tags": [
+        "Content"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Build-Content-Planning-For-The-Month-3aa45ca2a46280698c90dcb40417b6a9",
+      "Notion ID": "3aa45ca2-a462-8069-8c90-dcb40417b6a9"
+    },
+    {
+      "Name": "Built Portfolio Website ",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-09-06",
+      "Tags": [
+        "Marketing"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Built-Portfolio-Website-3aa45ca2a46280bf8f03ff0f3439103c",
+      "Notion ID": "3aa45ca2-a462-80bf-8f03-ff0f3439103c"
+    },
+    {
+      "Name": "Build Offer ",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-08-02",
+      "Tags": [
+        "Marketing"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Build-Offer-3aa45ca2a46280f89876c2e3346b28a6",
+      "Notion ID": "3aa45ca2-a462-80f8-9876-c2e3346b28a6"
+    },
+    {
+      "Name": "Post 7 Carrousels ",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-08-02",
+      "Tags": [
+        "Content"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Post-7-Carrousels-3aa45ca2a46280248717f75cf239797f",
+      "Notion ID": "3aa45ca2-a462-8024-8717-f75cf239797f"
+    },
+    {
+      "Name": "Produce Youtube video #1 ",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-29",
+      "Tags": [
+        "Content"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Produce-Youtube-video-1-3aa45ca2a462801a9199ebcb4fe4a80b",
+      "Notion ID": "3aa45ca2-a462-801a-9199-ebcb4fe4a80b"
+    },
+    {
+      "Name": "Produce Youtube video #2 ",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": "2026-07-31",
+      "Tags": [
+        "Content"
+      ],
+      "Company": null,
+      "Notion URL": "https://app.notion.com/p/Produce-Youtube-video-2-3aa45ca2a462807a9f2bf7f954d3eed3",
+      "Notion ID": "3aa45ca2-a462-807a-9f2b-f7f954d3eed3"
+    },
+    {
+      "Name": "Register on Freelancing Platforms",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": null,
+      "Tags": [],
+      "Company": "THE FORGE",
+      "Notion URL": "https://app.notion.com/p/Register-on-Freelancing-Platforms-3a745ca2a462812884e9da0fea85d3f1",
+      "Notion ID": "3a745ca2-a462-8128-84e9-da0fea85d3f1"
+    },
+    {
+      "Name": "Create Content Review / Scraper",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": null,
+      "Tags": [],
+      "Company": "THE FORGE",
+      "Notion URL": "https://app.notion.com/p/Create-Content-Review-Scraper-3a745ca2a46281989c8fdff5bfeabcf2",
+      "Notion ID": "3a745ca2-a462-8198-9c8f-dff5bfeabcf2"
+    },
+    {
+      "Name": "Create Many Chat For Aquisition on Instagram",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": null,
+      "Tags": [],
+      "Company": "THE FORGE",
+      "Notion URL": "https://app.notion.com/p/Create-Many-Chat-For-Aquisition-on-Instagram-3a745ca2a46281bc96b3d2ef92559a40",
+      "Notion ID": "3a745ca2-a462-81bc-96b3-d2ef92559a40"
+    },
+    {
+      "Name": "Analyze Competiton business model to reproduce",
+      "ProjectName": "Marketing ",
+      "Status": "Backlog",
+      "Priority": "P2",
+      "Estimate Hours": null,
+      "Due Date": null,
+      "Tags": [],
+      "Company": "THE FORGE",
+      "Notion URL": "https://app.notion.com/p/Analyze-Competiton-business-model-to-reproduce-3a745ca2a46281139e80c8c4a5aa4be4",
+      "Notion ID": "3a745ca2-a462-8113-9e80-c8c4a5aa4be4"
+    }
+  ],
+  "mapping": {
+    "status": "TO-DO→Backlog; completed checkbox→Terminé",
+    "estimate": "null when Notion Time Required is empty; never fabricate effort",
+    "dueDate": "Notion Due Date when present",
+    "tags": "Notion Category multi-select",
+    "sourceTrace": "Notion URL preserved in task Notes during Airtable write"
+  },
+  "skipped_source_records": [
+    {
+      "reason": "empty_task_title",
+      "notionId": "3aa45ca2-a462-8016-b73d-f3fafd14f7f4",
+      "notionUrl": "https://app.notion.com/p/3aa45ca2a4628016b73df3fafd14f7f4"
+    }
+  ]
+}
