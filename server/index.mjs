@@ -1,7 +1,6 @@
 import { createReadStream, existsSync } from 'node:fs';
 import { stat } from 'node:fs/promises';
 import { createServer } from 'node:http';
-import { timingSafeEqual } from 'node:crypto';
 import { extname, join, normalize } from 'node:path';
 import { z } from 'zod';
 import { recordToAirtable, recordToClient, tables, toAirtable } from './mapping.mjs';
@@ -9,7 +8,6 @@ import { recordToAirtable, recordToClient, tables, toAirtable } from './mapping.
 const port = Number(process.env.PORT || 8080);
 const baseId = process.env.AIRTABLE_BASE_ID;
 const pat = process.env.AIRTABLE_PAT || process.env.AIRTABLE_API_KEY;
-const appToken = process.env.APP_TOKEN;
 const dist = join(process.cwd(), 'dist');
 const mime = { '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml', '.json': 'application/json', '.webmanifest': 'application/manifest+json' };
 const writeSchema = z.object({ fields: z.record(z.string(), z.unknown()).optional(), records: z.array(z.object({ id: z.string().optional(), fields: z.record(z.string(), z.unknown()) })).max(10).optional(), performUpsert: z.object({ fieldsToMergeOn: z.array(z.string()).min(1) }).optional() });
@@ -34,12 +32,6 @@ class AirtableQueue {
 const queue = new AirtableQueue();
 const pause = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const json = (res, status, payload) => { res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' }); res.end(JSON.stringify(payload)); };
-const canAccess = (request) => {
-  if (!appToken) return false;
-  const received = Buffer.from(String(request.headers['x-app-token'] || ''));
-  const expected = Buffer.from(appToken);
-  return received.length === expected.length && timingSafeEqual(received, expected);
-};
 const airtable = async (path, init = {}) => queue.run(async () => {
   if (!baseId || !pat) throw new AirtableError(500, 'Airtable credentials missing');
   let lastError;
@@ -109,8 +101,7 @@ const server = createServer(async (request, response) => {
   try {
     const url = new URL(request.url || '/', `http://${request.headers.host || 'localhost'}`);
     const parts = url.pathname.split('/').filter(Boolean).map(decodeURIComponent);
-    if (url.pathname === '/api/health') return json(response, 200, { ok: true, source: baseId ? 'airtable' : 'unconfigured', auth: Boolean(appToken), at: new Date().toISOString() });
-    if (url.pathname.startsWith('/api/') && !canAccess(request)) return json(response, 401, { error: 'Unauthorized' });
+    if (url.pathname === '/api/health') return json(response, 200, { ok: true, source: baseId ? 'airtable' : 'unconfigured', at: new Date().toISOString() });
     if (url.pathname === '/api/bootstrap' && request.method === 'GET') return json(response, 200, await bootstrap());
     if (parts[0] === 'api' && tables.includes(parts[1])) {
       const table = parts[1];
@@ -136,7 +127,7 @@ const server = createServer(async (request, response) => {
     const requested = url.pathname === '/' ? 'index.html' : normalize(url.pathname).replace(/^\/+/, '');
     const file = join(dist, requested); const target = existsSync(file) && !file.includes('..') ? file : join(dist, 'index.html');
     const info = await stat(target); if (!info.isFile()) return json(response, 404, { error: 'Not found' });
-    response.writeHead(200, { 'Content-Type': mime[extname(target)] || 'application/octet-stream', 'Cache-Control': target.endsWith('index.html') ? 'no-cache' : 'public, max-age=604800' }); createReadStream(target).pipe(response);
+    response.writeHead(200, { 'Content-Type': mime[extname(target)] || 'application/octet-stream', 'Cache-Control': target.endsWith('index.html') || target === join(dist, 'sw.js') ? 'no-cache' : 'public, max-age=604800' }); createReadStream(target).pipe(response);
   } catch (error) { console.error(error); json(response, error instanceof AirtableError ? error.status : 500, { error: error instanceof Error ? error.message : 'Server error' }); }
 });
 async function readBody(request) { let raw = ''; for await (const chunk of request) raw += chunk; return raw ? JSON.parse(raw) : {}; }
